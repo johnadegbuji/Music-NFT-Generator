@@ -2,6 +2,8 @@ To use this script follow these steps
 
 1. Pull the code down from github and run NPM install to pull down all dependencies.
 
-2. Next add all the NFTs to the image folder that you want to use. I recommend going track by track and to even break it up by edition as well. On line 22 of the main.js file change the value of i to the number NFT your beginning from in the images folder. 
+2. Next add all the NFTs to the /images folder that you want to use. I recommend going track by track and to even break it up by edition as well. On line 22 of the main.js file change the value of i to the number NFT your beginning from in the /images folder. 
 
-3. Then add the song you would like to be used in the MP4. On line 7 in the main.js file change the inputAudio variable to the new track you've added to the audio folder
+3. Then add the song you would like to be used in the MP4. On line 7 in the main.js file change the inputAudio variable to the new track you've added to the /audio folder
+
+4. Finally run the command "node main.js" to start the generator. All exported MP4s will be output into the /build folder
