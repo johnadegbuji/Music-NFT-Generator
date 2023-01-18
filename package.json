@@ -1,0 +1,22 @@
+{
+  "name": "nft-music-maker",
+  "version": "1.0.0",
+  "description": "Combines .png and .wav files to create a .mp4 file",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnadegbuji/MusicNFTVideo-Generator.git"
+  },
+  "author": "TOX @ OPENSPACES",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnadegbuji/MusicNFTVideo-Generator/issues"
+  },
+  "homepage": "https://github.com/johnadegbuji/MusicNFTVideo-Generator#readme",
+  "dependencies": {
+    "ffmpeg-static": "^5.1.0"
+  }
+}
